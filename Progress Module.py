@@ -3,7 +3,7 @@ histogram = [0, 0, 0, 0, 0]
 list_of_outcome = []
 dictionary = {}
 
-def Histogram_display():
+def Histogram_display():      
     f = open('Text File.txt', 'w')
     for i in range (4):
         histogram[4] += histogram[i]
@@ -101,10 +101,6 @@ def main():
 
 main()
 
-# I declare that my work contains no examples of misconduct, such as plagiarism, or collusion.
-# Any code taken from other sources is referenced within my code solution.
-# Student ID: w1911654
-# Date: 30/11/2022
 
 
 
